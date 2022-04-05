@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+body{
+    background-color: #ffe6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(102, 0, 51);
+}
+
+h3{ 
+    color: hsl(120, 92%, 10%);
+}
+
+p {
+    font-family: 'Rubik Microbe', Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
