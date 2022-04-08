@@ -145,3 +145,50 @@ p {
     border: 1px solid gray;
     box-sizing: border-box;
 }
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
+
+.my-list li:first-child{
+    background-color: lightcoral;
+}
+
+.my-list li:last-child{
+    background-color: lightgreen;
+}
+
+.my-list li:nth-child(5){
+    background-color: lightblue;
+}
+
+.dynamic-list li:nth-child(even){
+    background-color: lightcoral;
+}
+
+.dynamic-list li:nth-child(odd){
+    background-color: lightsalmon;
+}
