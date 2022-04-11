@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1 { background: red;}
+.box2 { background: green;}
+.box3 { background: yellow;}
+.box4 { background: brown;}
+.box5 { background: orange;}
+.box6 { background: purple;}
+.box7 { background: magenta;}
+.box8 { background: silver;}
+.box9 { background: chartreuse;}
+.box10 { background: teal;}
+
+.container{
+    display: flex;
+    border: 5px solid black;
+    height: 100vh;
+    align-items: flex-start
+}
+
+.box{
+    width: 33.33%;
+}
+
+.box2{
+    padding-bottom: 200px;
+    align-self: flex-end;
+}
+
+.box6{
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
+.box9{
+    padding-bottom: 300px;
+    align-self: center;
+}
+
