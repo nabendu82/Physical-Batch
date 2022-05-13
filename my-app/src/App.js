@@ -1,9 +1,12 @@
 import './App.css';
-import EventBind from './components/EventBind';
+import ListPost from './components/ListPost';
+// import UserGreeting from './components/UserGreeting';
+// import EventBind from './components/EventBind';
 // import { Greet, ReactGreet } from './components/Greet';
 // import Greeting from './components/Greeting';
 // import Welcome from './components/Welcome';
 // import Counter from './components/Counter';
+// import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
       <Welcome name="Kotlin" />
       <Welcome name="Java"><button>Click</button></Welcome> */}
       {/* <Counter /> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      <ListPost />
     </div>
   );
 }
