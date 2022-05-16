@@ -1,5 +1,7 @@
 import './App.css';
-import ListPost from './components/ListPost';
+import ParentLifecycle from './components/ParentLifecycle';
+// import DemoForm from './components/DemoForm';
+// import ListPost from './components/ListPost';
 // import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
 // import { Greet, ReactGreet } from './components/Greet';
@@ -24,7 +26,9 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <ListPost />
+      {/* <ListPost /> */}
+      {/* <DemoForm /> */}
+      <ParentLifecycle />
     </div>
   );
 }
