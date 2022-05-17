@@ -1,5 +1,10 @@
 import './App.css';
-import ParentLifecycle from './components/ParentLifecycle';
+import PostForm from './components/PostForm';
+// import PostList from './components/PostList';
+// import GrandParent from './components/GrandParent';
+// import { UserProvider } from './components/useContext';
+// import RefsDemo from './components/RefsDemo';
+// import ParentLifecycle from './components/ParentLifecycle';
 // import DemoForm from './components/DemoForm';
 // import ListPost from './components/ListPost';
 // import UserGreeting from './components/UserGreeting';
@@ -28,7 +33,13 @@ function App() {
       {/* <UserGreeting /> */}
       {/* <ListPost /> */}
       {/* <DemoForm /> */}
-      <ParentLifecycle />
+      {/* <ParentLifecycle /> */}
+      {/* <RefsDemo /> */}
+      {/* <UserProvider value="Nabendu">
+        <GrandParent />
+      </UserProvider> */}
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   );
 }
