@@ -1,11 +1,10 @@
 import './App.css';
-import HookCounter from './components/HookCounter';
-
+import PostForm from './components/PostForm';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      <PostForm />
     </div>
   );
 }
